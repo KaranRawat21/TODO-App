@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 import FilterButton from "./FilterButton"
 import Task from "./Task"
 import { useState } from "react";
-import { addTodo, deleteToDo, clearCompletedTasks, toggleComplete, getToDoList } from "../redux/features/ToDoListSlice";
+import { addTodo, deleteToDo, clearCompletedTasks, toggleComplete, getToDoList } from "../redux/features/toDoListSlice";
 import { setFilter } from "../redux/features/filterSlice";
 
 export default function () {
@@ -115,3 +115,4 @@ export default function () {
     </div>
   )
 }
+
