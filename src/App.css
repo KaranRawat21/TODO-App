@@ -1,0 +1,22 @@
+:root {
+  --text-color: #6a6c79;
+  --bg-color-mainContainer: #eeeeee;
+  --bg-color-innerContainer: #ffffff;
+  --text-input: black
+}
+
+.dark {
+  --text-color: #c4c6df;
+  --bg-color-mainContainer: #181824;
+  --bg-color-innerContainer: #25273c;
+  --text-input: #c4c6df
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
